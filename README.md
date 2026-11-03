@@ -256,18 +256,6 @@ YARA identifies matching files; it does not automatically block or remove them.
 Removing these known lab artifacts is not a general guarantee that a real
 infection has been eradicated.
 
-## Workshop materials
-
-- [Workshop plan](CYBRSLC_Workshop_Revised.md): 120-minute teaching sequence.
-- [Simulator instructions](Simulator/Offline-Chaos-Instructions.txt): current
-  behavior, controls, artifact names, and manual acceptance checklists.
-- [Build script](Simulator/Build-Prank.ps1) and
-  [tests](Simulator/Test-Persistence.ps1).
-- [YARA rules](Simulator/Workshop.yar).
-- [Controller](Simulator/DoNtStopMePorfavor.cs),
-  [persistence helper](Simulator/LabPersistence.cs), and
-  [worker](Simulator/LabWorker.cs).
-
 The workshop plan may retain older branding examples. Use the Simulator
 instructions and current source for the renamed artifact identifiers.
 
